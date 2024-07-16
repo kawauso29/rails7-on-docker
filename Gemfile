@@ -7,7 +7,7 @@ ruby "3.3.2"
 
 # Bundle edge Rails instead:
 # gem "rails", github: "rails/rails", branch: "7-2-stable"
-gem "rails", "~> 7.2.0.beta2"
+gem "rails", "~> 6"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -77,3 +77,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem "bootstrap", "~> 5.1"
+gem "sassc-rails"
+gem "sassc"
+gem "mini_racer", platforms: :ruby
+
+ gem 'dotenv-rails'
+gem 'stripe'
